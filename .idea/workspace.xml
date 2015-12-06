@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83084b10-c05b-49b1-b15d-3df3c3eda8e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Challenge1.java" afterPath="$PROJECT_DIR$/src/Challenge1.java" />
     </list>
     <ignored path="Programming challenge.iws" />
@@ -28,11 +27,11 @@
       <file leaf-file-name="Challenge1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Challenge1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5089723">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.78303427">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding>
-                <element signature="e#7633#7634#0" expanded="true" />
-                <element signature="e#7670#7671#0" expanded="true" />
+                <element signature="e#7820#7821#0" expanded="true" />
+                <element signature="e#7857#7858#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -460,11 +459,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Challenge1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5089723">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.78303427">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           <folding>
-            <element signature="e#7633#7634#0" expanded="true" />
-            <element signature="e#7670#7671#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
           </folding>
         </state>
       </provider>

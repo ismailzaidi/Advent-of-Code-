@@ -8,7 +8,7 @@ public class Challenge1 {
         int floorCount = 0;
         char upFloor = '(';
         char downFloor = ')';
-
+        int counter = 0;
         for (Character charItem : stairInput.toCharArray()) {
             char item = charItem;
             if (item == upFloor) {
@@ -16,6 +16,12 @@ public class Challenge1 {
             } else if(item == downFloor) {
                 floorCount--;
             }
+
+            if(floorCount == -1){
+                System.out.println("Position is : " + (counter+1));
+                break;
+            }
+            counter++;
         }
         System.out.println("Santa Floor Level: " + floorCount);
     }
