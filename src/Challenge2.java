@@ -45,7 +45,6 @@ public class Challenge2 {
         list.add(width);
         list.add(height);
         Collections.sort(list);
-        System.out.println("Ordered: " + list.toString());
         return list;
     }
 
@@ -53,18 +52,24 @@ public class Challenge2 {
 
         return Integer.parseInt(feet.split("x")[position]);
     }
-
+    public int calculateRibon(int length,int width, int height){
+        return (int) ((length+length) + (width+width)) + (length*width*height);
+    }
     public void generateResult() {
         int globalSum = 0;
+        int ribonSum =0;
         for(String feet: listOFFeed){
             ArrayList<Integer> array_calculation = getSmallestValue(feet);
             int length = array_calculation.get(0);
             int width = array_calculation.get(1);
             int height = array_calculation.get(2);
             int squarefeet = calculateSquareFeed(length,width,height);
+            int totalRibon = calculateRibon(length,width,height);
+            ribonSum+=totalRibon;
             globalSum += squarefeet;
         }
         System.out.println("The Elf Require this amount of square feet: " + globalSum);
+        System.out.println("The Elf Require this amount of square feet for Ribon " + ribonSum);
     }
 
     public static void main(String[] args) {
